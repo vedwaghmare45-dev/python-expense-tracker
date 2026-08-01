@@ -46,7 +46,7 @@ Expense-Tracker/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/expense-tracker-python.git
+git clone https://github.com/vedwaghmare45-dev/python-expense-tracker.git
 ```
 
 2. Open the project
