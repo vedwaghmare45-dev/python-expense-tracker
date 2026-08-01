@@ -140,7 +140,3 @@ Thank you for using Personal Expense Tracker!
 * Add monthly and yearly expense reports.
 
 ---
-
-## Author
-
-**Ved Waghmare**
