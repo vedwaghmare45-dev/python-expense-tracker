@@ -1,4 +1,4 @@
-````md
+
 # Personal Expense Tracker
 
 A command-line **Personal Expense Tracker** built with **Python** that helps users manage their daily expenses using **JSON** for data storage.
