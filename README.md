@@ -144,13 +144,3 @@ Thank you for using Personal Expense Tracker!
 ## Author
 
 **Ved Waghmare**
-
-
-
-
-
----
-
-## Author
-
-Ved Waghmare
