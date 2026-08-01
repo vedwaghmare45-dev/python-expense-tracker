@@ -1,9 +1,7 @@
-# python-expense-tracker
-A command-line Personal Expense Tracker built with Python that helps users manage daily expenses using JSON for data storage.
-
+````md
 # Personal Expense Tracker
 
-A command-line Personal Expense Tracker built using Python. This project allows users to record, organize, and analyze their daily expenses. Expense data is stored in a JSON file, making it simple and lightweight.
+A command-line **Personal Expense Tracker** built with **Python** that helps users manage their daily expenses using **JSON** for data storage.
 
 ---
 
@@ -30,32 +28,32 @@ A command-line Personal Expense Tracker built using Python. This project allows 
 
 ## Project Structure
 
-```
-Expense-Tracker/
+```text
+python-expense-tracker/
 │── main.py
 │── expenses.json
 │── README.md
 │── .gitignore
-│── LICENSE
-```
+└── LICENSE
+````
 
 ---
 
 ## How to Run
 
-1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/vedwaghmare45-dev/python-expense-tracker.git
 ```
 
-2. Open the project
+### 2. Navigate to the project folder
 
 ```bash
-cd expense-tracker-python
+cd python-expense-tracker
 ```
 
-3. Run
+### 3. Run the application
 
 ```bash
 python main.py
@@ -63,15 +61,7 @@ python main.py
 
 ---
 
-## Future Improvements
-
-- GUI using Tkinter
-- SQLite database
-- Charts using Matplotlib
-- CSV export
-- Monthly reports
-
-  ## What I Learned
+## What I Learned
 
 Building this project helped me understand and practice:
 
@@ -85,6 +75,8 @@ Building this project helped me understand and practice:
 * Deleting records from a list using `enumerate()`.
 * Organizing a menu-driven terminal application.
 * Debugging and improving program logic.
+
+---
 
 ## Sample Output
 
@@ -115,8 +107,8 @@ Expense added successfully!
 
 Enter your choice: 2
 
-Date         Amount   Category   Description
-01-08-2026   250.0    Food       Lunch
+Date         Amount   Category      Description
+01-08-2026   250.0    Food          Lunch
 
 ----------------------------------------
 
@@ -136,6 +128,26 @@ Enter your choice: 9
 
 Thank you for using Personal Expense Tracker!
 ```
+
+---
+
+## Future Improvements
+
+* Add a graphical user interface (GUI) using Tkinter.
+* Store data in an SQLite database instead of JSON.
+* Generate expense charts using Matplotlib.
+* Export expense records to CSV.
+* Add monthly and yearly expense reports.
+
+---
+
+## Author
+
+**Ved Waghmare**
+
+```
+```
+
 
 
 ---
