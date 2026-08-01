@@ -12,25 +12,25 @@ def main():
         choice = int(input("Enter your choice:"))
 
         if(choice == 1):
-            Expenses.append(NewExpenses())
+            Expenses.append(new_expenses())
         
         elif(choice == 2):
-            View(Expenses)
+            view_expenses(Expenses)
         
         elif(choice == 3):
-            ViewDate(Expenses)
+            view_by_date(Expenses)
         
         elif(choice == 4):
-            ViewCat(Expenses)
+            view_by_category(Expenses)
         
         elif(choice == 5):
-            Calctotal(Expenses)
+            calculate_total_expenses(Expenses)
         
         elif(choice == 6):
-            Summary(Expenses)
+            summary(Expenses)
         
         elif(choice == 7):
-            exp = delet(Expenses)
+            exp = delete_expenses(Expenses)
         
         elif(choice == 8):
             save(Expenses)
@@ -45,7 +45,7 @@ def main():
     
 
 
-def NewExpenses():
+def new_expenses():
     date = input("Enter the date (DD-MM-YYYY):")
     while True:
         try:
@@ -61,13 +61,13 @@ def NewExpenses():
     return {'date': date , 'amount': amount , 'category' : cat , 'description' : des}
 
 
-def View(exp):
+def view_expenses(exp):
     print(f"{'Date':<15}{'Amount':<12}{'Category':<15}{'Description'}")
 
     for i in exp:
         print(f"{i['date']:<15}{i['amount']:<12.2f}{i['category']:<15}{i['description']}")
 
-def ViewDate(exp):
+def view_by_date(exp):
     dat = input("Enter the date (DD-MM-YYYY) :")
     print("Date       Amount      Category      Description")
     for i in exp:
@@ -75,7 +75,7 @@ def ViewDate(exp):
             print(f"{i['date']} {i['amount']}  {i['category']}  {i['description']}")
         
 
-def ViewCat(exp):
+def view_by_category(exp):
     categ = input("Enter the Category :")
     print("Date       Amount      Category      Description")
     for i in exp:
@@ -83,7 +83,7 @@ def ViewCat(exp):
             print(f"{i['date']} {i['amount']}  {i['category']}  {i['description']}")
 
 
-def Calctotal(exp):
+def calculate_total_expenses(exp):
     total = 0
     for i in exp:
 
@@ -91,7 +91,7 @@ def Calctotal(exp):
 
     print(f"Total Expense will be {total}")
 
-def Summary(exp):
+def summary(exp):
     food = 0
     shop = 0
     trans = 0
@@ -121,7 +121,7 @@ def Summary(exp):
     
 
 
-def delet(exp):
+def delete_expenses(exp):
     date = input("Enter the date (DD-MM-YYYY) :")
     categor = input("Enter the category :")
     found = False
